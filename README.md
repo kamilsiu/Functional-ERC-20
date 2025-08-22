@@ -48,7 +48,7 @@ forge test
 testInitialSupply → Ensures deployer receives the correct initial supply.
 testMint → Ensures only the owner can mint new tokens, within the cap.
 
-📜 Smart Contract Functions
+### 📜 Smart Contract Functions
 Function	Access	Description
 ```
 mint(address to, uint256 amount)	Owner	Mint new tokens under the supply cap
@@ -71,13 +71,13 @@ token.pause();
 ```
 🧪 Requirements
 
-Foundry
+### Foundry
  (for testing & deployment)
 
 Solidity ^0.8.13
 
 OpenZeppelin Contracts ^4.x
 
-📄 License
+### 📄 License
 
 This project is licensed under the MIT License
